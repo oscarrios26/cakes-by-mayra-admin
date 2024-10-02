@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #f3ccdc;
   max-width: 1200px;
+  min-width: 300px;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -33,7 +34,6 @@ h3{
   text-decoration: underline;
   cursor: pointer;
 }
-
 
 .button-15 {
   background-image: linear-gradient(#42A1EC, #0070C9);
@@ -79,4 +79,10 @@ h3{
 .button-15:focus {
   box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
   outline: none;
+}
+
+@media screen and (max-width: 430px) {
+  .logout{
+    padding: 0;
+  }
 }
