@@ -60,15 +60,15 @@ export default function Cakes() {
     </div>
         <div className="data-div" style={style}>
           <div className='inquiry-data'>
-          <div className='data'><h2>Inquiry Created:</h2><p>{date}</p></div>
-          <div className='data'><h2>Name:</h2><p>{data.name}</p></div>
-          <div className='data'><h2>Email:</h2><p>{data.email}</p></div>
-          <div className='data'><h2>Phone Number:</h2><p>{data.phone_number}</p></div>
-          <div className='data'><h2>Date Needed:</h2><p>{dateNeeded}</p></div>
-          <div className='data'><h2>Cake Finish:</h2><p>{data.cake_finish}</p></div>
-          <div className='data'><h2>Servings:</h2><p>{data.servings}</p></div>
-          <div className='data'><h2>Delivery Method:</h2><p>{data.delivery_method}</p></div>
-          {data.address ? <div className='data'><h2>Address:</h2><p>{data.address}</p></div> : ''}
+          <div className='data'><h2>Inquiry Created:</h2><p className='p-data'>{date}</p></div>
+          <div className='data'><h2>Name:</h2><p className='p-data'>{data.name}</p></div>
+          <div className='data'><h2>Email:</h2><p className='p-data'>{data.email}</p></div>
+          <div className='data'><h2>Phone Number:</h2><p className='p-data'>{data.phone_number}</p></div>
+          <div className='data'><h2>Date Needed:</h2><p className='p-data'>{dateNeeded}</p></div>
+          <div className='data'><h2>Cake Finish:</h2><p className='p-data'>{data.cake_finish}</p></div>
+          <div className='data'><h2>Servings:</h2><p className='p-data'>{data.servings}</p></div>
+          <div className='data'><h2>Delivery Method:</h2><p className='p-data'>{data.delivery_method}</p></div>
+          {data.address ? <div className='data'><h2>Address:</h2><p className='p-data'>{data.address}</p></div> : ''}
           </div>
           
           <div className='pic-div'>

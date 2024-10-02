@@ -39,7 +39,7 @@
   width: 50%;
   padding-left: 50px;
   border-right: rgb(124, 122, 122) solid;
-  min-height: 800px;
+  min-height: 300px;
 }
 
 .data{
@@ -63,7 +63,6 @@ p{
   justify-content: center;
   flex-wrap: wrap;
   overflow-y: scroll;
-  min-height: 200px;
   width: 100%;
   gap: 5px;
 
@@ -95,4 +94,12 @@ img{
 .names:hover{
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+  .data{
+    display: flex;
+    word-wrap: break-word;
+    font-size: 15px;
+  }
 }
