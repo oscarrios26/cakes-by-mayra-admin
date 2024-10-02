@@ -1,0 +1,98 @@
+.nav{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.link-tag{
+  margin-right: 70px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.link-tag:hover{
+  text-decoration: underline;
+}
+
+.client-div{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.data-div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.title{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.ul-div{
+  width: 50%;
+  padding-left: 50px;
+  border-right: rgb(124, 122, 122) solid;
+  min-height: 800px;
+}
+
+.data{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:baseline;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+h2{
+  padding-right: 5px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.pic-div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  min-height: 200px;
+  width: 100%;
+  gap: 5px;
+
+}
+
+img{
+  width: 288px;
+  height: 300px;
+}
+
+.inquiry-data{
+  padding-bottom: 10px;
+}
+
+.client-list{
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.fa{
+  padding-right: 15px;
+}
+
+.fa:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.names:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
