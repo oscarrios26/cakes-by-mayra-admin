@@ -5,7 +5,7 @@
   background-color: #f3ccdc;
   max-width: 1200px;
   min-width: 430px;
-  min-height: 800px;
+  min-height: 100vh;
   margin: 0 auto;
 }
 

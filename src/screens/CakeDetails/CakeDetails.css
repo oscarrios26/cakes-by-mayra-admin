@@ -1,0 +1,22 @@
+.bi-trash{
+  margin-left: 160px;
+}
+
+.trash-div{
+  display: flex;
+  justify-content: center;
+}
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 180px;
+  height: 100px;
+}
+
+.modal-btn{
+  padding: 2px;
+  font-size: 20px;
+  width: 90%;
+}

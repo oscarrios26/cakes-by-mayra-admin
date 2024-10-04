@@ -26,18 +26,19 @@
 .data-div{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 65%;
   height: 100%;
 }
 
 .title{
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+
 }
 
 .ul-div{
-  width: 50%;
-  padding-left: 50px;
+  width: 40%;
+  padding-left: 10px;
   border-right: rgb(124, 122, 122) solid;
   min-height: 300px;
 }
@@ -65,7 +66,6 @@ p{
   overflow-y: scroll;
   width: 100%;
   gap: 5px;
-
 }
 
 img{
@@ -96,10 +96,26 @@ img{
   cursor: pointer;
 }
 
+.names{
+  padding-left: 10px;
+}
+
+.bi{
+  color: green;
+  margin-left: 10px;
+}
+
+.bi-trash{
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 430px) {
   .data{
     display: flex;
-    word-wrap: break-word;
     font-size: 15px;
+  }
+
+  .data{
+    padding-left: 10px;
   }
 }

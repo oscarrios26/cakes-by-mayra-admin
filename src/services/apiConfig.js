@@ -45,3 +45,38 @@ export const getCookieInquiries = async () => {
 		throw error;
 	}
 };
+
+export const getCakeInquirie = async (id) => {
+	try {
+		const response = await api.get(`/cake-clients/${id}`);
+		return response.data;
+	} catch (error) {
+		throw error;
+	}
+};
+
+export const getCookieInquirie = async (id) => {
+	try {
+		const response = await api.get(`/cookie-clients/${id}`);
+		return response.data;
+	} catch (error) {
+		throw error;
+	}
+};
+
+export const updateCakeInquiries = async (id, body) => {
+	try {
+		const response = await api.put(`/cake-clients/${id}`, body);
+		return response.data;
+	} catch (error) {
+		throw error;
+	}
+};
+export const updateCookieInquiries = async (id, body) => {
+	try {
+		const response = await api.put(`/cookie-clients/${id}`, body);
+		return response.data;
+	} catch (error) {
+		throw error;
+	}
+};
